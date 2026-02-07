@@ -1,0 +1,49 @@
+@import url('header.css');
+@import url('main.css');
+@import url('section.css');
+@import url('footer.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url('../fonts/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --color-primary-01: #84e1ad;
+    --color-primary-02: #3BD37F;
+    --color-primary-03: #1A5C38;
+    --color-primary-04: #2FA866;
+    --color-primary-05: #C5EBD6;
+
+    --font-primary: Arial, Helvetica, sans-serif;
+    --font-android: 'Android', sans-serif;
+    --font-title: 'Archivo Narrow', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    background: var(--color-primary-01);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1280px){
+    
+    section {
+        width: 100%;
+    }
+}

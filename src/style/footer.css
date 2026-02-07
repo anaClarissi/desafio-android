@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary-03);
+    color: white;
+    height: 40px;
+    font-weight: 500;
+}
+
+footer a {
+    color: var(--color-primary-02);
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: var(--color-primary-05);
+}
