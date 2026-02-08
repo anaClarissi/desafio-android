@@ -22,4 +22,4 @@ Neste desafio, foquei em resolver problemas reais de design, como:
 - Organização de camadas visuais com `z-index`.
 
 ## ✒️ Autor
-Desenvolvido por **Ana Clarissi** – [Meu Linkedin](www.linkedin.com/in/anaclarissi)
+Desenvolvido por **Ana Clarissi** – [Meu Linkedin](https://www.linkedin.com/in/anaclarissi/)
